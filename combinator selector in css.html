@@ -66,6 +66,7 @@ process with the Child selector-->
 <!--General Sibling Selector(~)
 if we want apply a format to the followed(next) tags-->
 
+
 <html>
     <head>
         <title> General sibling selector</title>
@@ -82,9 +83,46 @@ if we want apply a format to the followed(next) tags-->
             <h2>APPLE</h2><!--applied-->
             <h2>MANGO</h2><!--applied-->
             <h2>GOA</h2><!--applied-->
+            <b>
+                <p> HONEY</p>
+                <h2> STRAWBERRY</h2>
+            </b>
         </div>
         <h2>GRAPES</h2> <!-- not applied-->
     </body>
 </html>
+
+
+
+<!--Adjacent sibling Selector(+)
+if we want apply a format to the followed(next) tag only(one tag only)...-->
+
+<html>
+    <head>
+        <title>
+            Adjascent sibling selector
+        </title>
+        <style>
+            p+h1{
+                background-color: blue;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div>
+        <p>ROSE</p>
+        <h1>JASMINE</h1>
+        <h1>LILLY</h1>
+        <b>
+            <p>HELLO</p>
+            <h1>SUNFLOWER</h1>
+        </b></div>
+
+        </b>
+    </body>
+
+</html>
+
 
 
