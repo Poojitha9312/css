@@ -1,9 +1,44 @@
-h1  { 
-    color: blue; 
-    font-size: 50px;   
-    }
+h1{
+    color:red;
+    font-size: 30px;
+}
+
+h2{
+    color:aqua;
+    font-size: 20px;
+
+}
+
+p{
+    color:yellow;
+    font-size:50px;
+}
+
+b{
+    color:green;
     
-h2  { 
-    color: red;
-    font-size: 30px;   
-    }
+}
+
+h3,p{
+    color:rgb(255, 0, 153);
+    font-size: 50px;
+}
+
+#id1{
+    color:red;
+    font-size: 60px;
+}
+
+#id2{
+    color:aqua;
+    font-size: 40px;
+}
+
+.c1{
+    color:darkblue;
+    font-size: 40px;
+}
+
+input[type="text"]{
+border:5px solid red;
+}
