@@ -60,3 +60,9 @@ a:visited{color:black;}
 
 a:hover{color:maroon;
 	font-size:large;}
+
+
+img
+{
+border:red dotted;
+}
