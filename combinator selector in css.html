@@ -63,4 +63,28 @@ process with the Child selector-->
     </body>
 </html>-->
 
+<!--General Sibling Selector(~)
+if we want apply a format to the followed(next) tags-->
+
+<html>
+    <head>
+        <title> General sibling selector</title>
+        <style>
+            p~h2{    /*format applied for h3 tags (h3 is followed by p) */
+                background-color: rgb(233, 11, 11);
+            }
+
+        </style>
+    </head>
+    <body>
+        <div>
+            <p>HELLO</p>
+            <h2>APPLE</h2><!--applied-->
+            <h2>MANGO</h2><!--applied-->
+            <h2>GOA</h2><!--applied-->
+        </div>
+        <h2>GRAPES</h2> <!-- not applied-->
+    </body>
+</html>
+
 
