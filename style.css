@@ -47,3 +47,16 @@ border:5px solid red;
 p{
     background-color: green;
 }
+
+
+a
+{background-color:yellow;}
+
+a:link{color:red;}
+
+a:active{color:blue;}
+
+a:visited{color:black;}
+
+a:hover{color:maroon;
+	font-size:large;}
