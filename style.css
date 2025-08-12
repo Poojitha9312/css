@@ -42,3 +42,8 @@ h3,p{
 input[type="text"]{
 border:5px solid red;
 }
+
+
+p{
+    background-color: green;
+}

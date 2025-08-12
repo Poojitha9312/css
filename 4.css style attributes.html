@@ -1,0 +1,59 @@
+<!-- 
+ 1.	Background
+2.	Font
+3.	Text
+4.	links
+5.	Border
+6.	Table
+7.	Image
+8.	List 
+
+
+1.Background:
+•	background-color : "red";
+•	background-image: url(" ");
+•	background-repeat: no-repeat/repeat-x/repeat-y;
+•	background-position: right/left/center/right top/right bottom/20px/200px 300px;
+•	background-attachment: fixed/scroll;
+•	background-size: cover/contain (Cover stretches the image and contain gives original image without stretch and loop)
+•	background-origin: content-box/padding-box/border-box (padding-box means both content and padding box)(border-box means both border+padding+content) (origin supports image)
+•	background-clip: content-box/padding-box/border-box (padding-box means both content and padding box)(border-box means both border+padding+content) (clip supports color)-->
+
+<!-- Example:
+Style.css 
+p{
+background-color:green;
+}-->
+
+<!-- Index.html -->
+ <!--
+<html>
+<head><link rel="stylesheet" href="C:\Users\pujiv\Desktop\css\style.css"></head>
+<body>
+<p>If one of the properties in the shorthand declaration is the bg-size property, you must use a / (slash) to separate it from the bg-position property, e.g. background:url(smiley.gif) 10px 20px/50px 50px; will result in a background image, positioned 10 pixels from the left, 20 pixels from the top, and the size of the image will be 50 pixels wide and 50 pixels high.</p>
+
+<p>If one of the properties in the shorthand declaration is the bg-size property, you must use a / (slash) to separate it from the bg-position property, e.g. background:url(smiley.gif) 10px 20px/50px 50px; will result in a background image, positioned 10 pixels from the left, 20 pixels from the top, and the size of the image will be 50 pixels wide and 50 pixels high.</p>
+</body>
+</html>-->
+
+
+<!-- Back Ground-origin Example -->
+<html>
+    <head>
+        <style>
+            p{
+                height:400px;
+                width:600px;
+                background-color: teal;
+                background-image: url("C:\Users\pujiv\Desktop\ball.jpg");
+                padding: 30px;
+                background-origin: padding-box;
+                /* Here content box means ----content box;
+                Here padding box means ---content box+padding; */
+            }
+        </style>
+    </head>
+    <body>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet laudantium repellat fuga nesciunt eius amet, cupiditate explicabo libero saepe dolore deleniti pariatur minus odio sint accusamus excepturi. Fuga, eveniet alias.</p>
+    </body>
+</html>
