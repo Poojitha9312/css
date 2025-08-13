@@ -92,3 +92,8 @@ img:hover{
     border-radius: 5px;
     border-top:dashed ;
 }
+
+ul{
+    list-style-type: square;
+    list-style-position:outside;
+}
