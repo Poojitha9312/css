@@ -68,3 +68,11 @@ border:red dotted;
 border-radius: 30px;
 border-bottom-style: groove;
 }
+
+table{
+    border-spacing: 5px;
+    border-color: rgb(43, 5, 148);
+    border-top-style: dashed;
+    border-radius: 4px;
+    border-width: 6px;
+}
