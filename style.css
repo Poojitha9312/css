@@ -65,4 +65,6 @@ a:hover{color:maroon;
 img
 {
 border:red dotted;
+border-radius: 30px;
+border-bottom-style: groove;
 }
