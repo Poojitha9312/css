@@ -19,13 +19,13 @@ b{
     
 }
 
-h3,p{
-    color:rgb(255, 0, 153);
+h3,p,b{
+    color:rgb(38, 0, 255);
     font-size: 50px;
 }
 
 #id1{
-    color:red;
+    color:rgb(255, 251, 0);
     font-size: 60px;
 }
 
@@ -40,7 +40,7 @@ h3,p{
 }
 
 input[type="text"]{
-border:5px solid red;
+border:2px solid rgb(166, 255, 0);
 }
 
 
