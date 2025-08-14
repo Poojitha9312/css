@@ -101,8 +101,7 @@ ol{
 }
 
 
-text{
-    letter-spacing: 2px;
-    text-decoration: overline;
-    text-shadow: 3px rgb(9, 255, 0);
+h1{
+
+    text-shadow: 5px 5px rgb(166, 255, 0);
 }
