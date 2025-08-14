@@ -54,9 +54,9 @@ a
 
 a:link{color:red;}
 
-a:active{color:blue;}
+a:active{color:rgb(91, 91, 228);}
 
-a:visited{color:black;}
+a:visited{color:rgb(47, 194, 42);}
 
 a:hover{color:maroon;
 	font-size:large;}
@@ -66,7 +66,7 @@ img
 {
 border:red dotted;
 border-radius: 30px;
-border-bottom-style: groove;
+border-bottom-style: dashed;
 }
 
 table{
@@ -90,14 +90,19 @@ img:hover{
 	width:500px;
 	height:500px;
     border-radius: 5px;
-    border-top:dashed ;
+    border-top:groove;
 }
 
 ol{
     list-style-type: square;
-    list-style-position:outside;
+    list-style-position:inside;
     marker: offset 20px;
   
 }
 
 
+text{
+    letter-spacing: 2px;
+    text-decoration: overline;
+    text-shadow: 3px rgb(9, 255, 0);
+}
