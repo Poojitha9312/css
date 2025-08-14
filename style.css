@@ -93,7 +93,11 @@ img:hover{
     border-top:dashed ;
 }
 
-ul{
+ol{
     list-style-type: square;
     list-style-position:outside;
+    marker: offset 20px;
+  
 }
+
+
