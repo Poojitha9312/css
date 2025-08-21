@@ -41,7 +41,7 @@
 
 
 <!--paragraph with image-->
-<html>
+<!-- <html>
     <head>
         <title>
             Float property
@@ -58,11 +58,44 @@
                 border:3px dotted red;
                 padding:10px;
                 text-align: justify;
+                /* float:right; */
             }
         </style>
     </head>
     <body>
         <img src="./download.jpg" id="image">
-        <div class="div1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur soluta earum modi vitae eligendi ab deleniti reprehenderit laborum, fugit placeat sed et, eos assumenda, magni fuga perspiciatis tempora labore odit!</div>
+        <div class="div1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sequi, vitae voluptates totam ea nam minima exercitationem iusto in qui, dolore vel voluptas, consectetur ipsam quisquam aperiam facere! Saepe ducimus dicta, quo, repellat mollitia dolorum libero, ea consectetur reiciendis in earum dolore fuga nisi ut dolor animi soluta atque aliquam eveniet. Quam saepe consequatur corporis expedita repellat nisi nihil sed aliquid praesentium, officiis ipsam rerum fugiat error mollitia dolorem quis cupiditate obcaecati nulla quibusdam at fuga? Doloremque deserunt molestiae rem distinctio, odit fuga provident sapiente cumque sit itaque, ducimus reiciendis ut dolor quia quibusdam repellendus! Beatae rerum eius asperiores iste.</div>
+    </body>
+</html> -->
+<!-- 
+Note: If we apply float property to any element it will come outside of its container (means if we use <p <img>> then img is in paragraph container if we apply float to image then img come out from paragraph container. On that scenario we have to use overflow:auto to paragraph. -->
+
+<!--EXample-->
+<html>
+    <head>
+        <title>
+    float property</title>
+    <style>
+        #image{
+            width: 150px;
+            height:150px;
+            padding: 5px;
+            float:left;
+        }
+        p{
+          width:30%;
+          text-align:justify; 
+           border:2px solid red;
+           padding:2px;
+           overflow: auto;
+        }
+    </style>
+    </head>
+    <body>
+        <p>
+            <img src="./butterfly.jpg" id="image">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ea suscipit excepturi at laboriosam, unde natus corrupti aspernatur. Voluptatem, minima?
+        </p>
+
     </body>
 </html>
