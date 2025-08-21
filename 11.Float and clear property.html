@@ -71,7 +71,7 @@
 Note: If we apply float property to any element it will come outside of its container (means if we use <p <img>> then img is in paragraph container if we apply float to image then img come out from paragraph container. On that scenario we have to use overflow:auto to paragraph. -->
 
 <!--EXample-->
-<html>
+<!-- <html>
     <head>
         <title>
     float property</title>
@@ -98,5 +98,51 @@ Note: If we apply float property to any element it will come outside of its cont
            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ea suscipit excepturi at laboriosam, unde natus corrupti aspernatur. Voluptatem, minima?
         </p>
 
+    </body>
+</html> -->
+
+
+<!-- Clear Property 
+Clear property is used to decide weather the element will appear or not in left or right side of any floated element.
+Clear property have 3 values left/right/both.-->
+
+<!--Example-->
+<html>
+    <head>
+        <title>
+            float property
+        </title>
+        <style>
+            .div1{
+                background-color: red;
+                color:white;
+                width:30%;
+                height:200px;
+                padding:2px;
+                float:left;
+            }
+            .div2{
+                background-color: deeppink;
+                color:white;
+                width:70%;
+                height: 400px;
+                float:right;
+            }
+            .footer{
+                background-color: green;
+                height:100px;
+                clear:both;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="div1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea quibusdam, dolore enim obcaecati commodi harum recusandae dolorem omnis, iure excepturi consequuntur necessitatibus non. Nam odio voluptates soluta culpa perferendis praesentium!</div>
+
+        <div class="div2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio vitae unde id officia dicta quaerat numquam sunt exercitationem ipsa? Dolorum?</div>
+
+        <div class="footer">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, reprehenderit?
+        </div>
     </body>
 </html>
