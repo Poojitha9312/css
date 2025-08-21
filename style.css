@@ -133,4 +133,11 @@ body{
     background-size: cover;
     background-blend-mode: multiply;
 }  */
-
+/* 
+body{
+     background:linear-gradient(red,pink,aqua); 
+    background:linear-gradient(to bottom,blue,green,orange,pink); 
+     background:linear-gradient(to left,orange,red,blue,yellow); 
+    background:linear-gradient(yellow 30%,orange20,red,blue);
+    
+} */
