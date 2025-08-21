@@ -105,7 +105,7 @@ h1{
 
     text-shadow: 5px 5px rgb(166, 255, 0);
 } */
- body{
+ /* body{
     background-image: url("./download.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -124,4 +124,13 @@ button{
 button{
    
     opacity:0.5;
-}
+} */
+/*  
+body{
+    background:url("./image.jpg"),blueviolet; 
+     background:url("./butterfly.jpg"),url("./download.jpg"); 
+    background:url("./image.jpg"),linear-gradient(90deg,blue,pink);
+    background-size: cover;
+    background-blend-mode: multiply;
+}  */
+
