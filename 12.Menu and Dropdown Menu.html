@@ -3,7 +3,7 @@ A favicon is a small image displayed next to the page title in the browser tab. 
 <!-- MENU BAR WITH FAVICON -->
 
 <!--Example-->
-<html>
+<!-- <html>
     <head>
         <title>
             Menu Bar
@@ -46,5 +46,71 @@ A favicon is a small image displayed next to the page title in the browser tab. 
             <li><a href="#">SIGNIN </a></li>
             <li><a href="#">SIGNUP</a></li>
         </ul>
+    </body>
+</html> -->
+
+<html>
+    <head>
+        <title>
+            Dropdown Menu
+        </title>
+        <style>
+            *{
+                margin:0px;
+                padding:0px;
+            }
+            ul{
+                font-size: 15px;
+                font-weight: bolder;
+                background-color: aqua;
+                list-style: none;
+                position:fixed;
+
+            }
+            ul li{
+                display:inline-block;
+
+            }
+            ul li a{
+                text-decoration: none;
+                padding: 20px 20px;
+                display:block;
+                color:black;
+            }
+            ul  li a:hover{
+                background-color: yellow;
+                color:white;
+            }
+            ul li{
+                float:left;
+            }
+            ul li ul li{
+                float:none;
+                display:none;
+                padding: 10px 15px;
+            }
+            
+ul li:hover ul li
+{
+display:block;
+
+}
+
+ </style>
+    </head>
+    <body>
+        <ul>
+<li><a href="#">HOME</a></li>
+<li><a href="#">COURSES</a>
+<ul>
+<li><a href="#">HTML</a></li>
+<li><a href="#">CSS</a></li>
+<li><a href="#">JAVA</a></li>
+</ul>
+</li>
+<li><a href="#">ABOUT</a></li>
+<li><a href="#">SIGNIN</a></li>
+<li><a href="#">SIGNUP</a></li>
+</ul>
     </body>
 </html>
