@@ -153,6 +153,6 @@ body{
 .box{
     height: 100px;
     width: 100px;
-    background: linear-gradient(50 deg,green,deep rgb(231, 4, 42));
+    background: linear-gradient(45 deg ,green,deep rgb(231, 4, 42));
     box-shadow: 5px 5px orangered;
 }
