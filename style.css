@@ -141,3 +141,13 @@ body{
     background:linear-gradient(yellow 30%,orange20,red,blue);
     
 } */
+
+/* h1{
+    text-shadow: 5px 5px rgb(170, 7, 170);
+} */
+
+h1{
+    text-shadow: 5px 5px 3px deepskyblue;
+}
+
+
