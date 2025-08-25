@@ -151,8 +151,9 @@ body{
 } */
 
 .box{
-    height: 100px;
-    width: 100px;
-    background: linear-gradient(45 deg ,green,deep rgb(231, 4, 42));
-    box-shadow: 5px 5px orangered;
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(45deg,rgb(4, 184, 22),rgb(74, 3, 41));
+    box-shadow: 5px 5px 5px yellow;
+    border-radius: 50%;
 }
