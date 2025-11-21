@@ -8,8 +8,20 @@ h2{
     font-size: 40px;
 } */
 
-
+/* 
 p{
     color:blueviolet;
     font-size: 30px;
+} */
+
+
+.c1{
+    height:400px;
+    width:600px;
+    border-color: orange;
+    font-size: 25px;
+    color: blueviolet;
+    
+
+
 }
