@@ -28,15 +28,13 @@
     color: blueviolet;
     padding: 40px;
     border:20px dotted greenyellow;
-    background-image: url("./ball.jpg");
-    background-size: cover; 
+    background-color: blueviolet; 
      background-size:contain;
     background-repeat: no-repeat; 
+    background-clip: border-box;
+    
 
-    /* I want to display this image in content area */
-    background-origin: content-box; 
-    background-origin: padding-box;
-    background-origin: border-box; } 
+   
 
 
 
