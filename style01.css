@@ -1,27 +1,18 @@
-/* h1{
-    color:pink;
-    font-size: 20px;
-}
-
-h2{
-    color:aqua;
-    font-size: 40px;
-} */
-
-/* 
-p{
-    color:blueviolet;
-    font-size: 30px;
-} */
 
 
+/* BACKGROUND PROPERTY */
 .c1{
     height:400px;
     width:600px;
     border-color: orange;
     font-size: 25px;
     color: blueviolet;
+    padding: 40px;
+    border:20px dotted greenyellow;
+    background-image: url("./ball.jpg");
     
+
+
 
 
 }
