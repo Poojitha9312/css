@@ -1,6 +1,6 @@
 
-/* BACKGROUND PROPERTY */
-.c1{
+/* BACKGROUND-ORIGIN */
+/* .c1{
     height:400px;
     width:600px;
     border-color: orange;
@@ -10,13 +10,13 @@
     border:20px dotted greenyellow;
     background-image: url("./ball.jpg");
     /* background-size: cover; */
-    background-size: contain;
-    background-repeat: no-repeat;
+    /* background-size: contain;
+    background-repeat: no-repeat; */
 
     /* I want to display this image in content area */
-    background-origin: content-box;
+    /* background-origin: content-box; */
     /* background-origin: padding-box; */
-    background-origin: border-box;
+    /* background-origin: border-box; }*/ 
 
 
 
@@ -24,4 +24,3 @@
 
 
 
-}
