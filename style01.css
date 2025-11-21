@@ -18,6 +18,26 @@
     /* background-origin: padding-box; */
     /* background-origin: border-box; }*/ 
 
+/* BACKGROUND-CLIP */
+
+    .c1{
+    height:400px;
+    width:600px;
+    border-color: orange;
+    font-size: 25px;
+    color: blueviolet;
+    padding: 40px;
+    border:20px dotted greenyellow;
+    background-image: url("./ball.jpg");
+    background-size: cover; 
+     background-size:contain;
+    background-repeat: no-repeat; 
+
+    /* I want to display this image in content area */
+    background-origin: content-box; 
+    background-origin: padding-box;
+    background-origin: border-box; } 
+
 
 
 
