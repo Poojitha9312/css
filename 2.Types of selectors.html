@@ -1,65 +1,83 @@
-<!-- There are five types of selectors-->
- <!--Element selector individual element-->
- <html>
-    <head>
-        <title>
-            Types of selectors
-        </title>
-        <link rel="stylesheet"
-        href="c:\users\pujiv\desktop\css\stle.css">
-    </head>
-    <body>
-        <h1>HAI WELCOME TO PYTHON</h1>
-        <h2>HIETECH SOLUTIONS</h2>
-        <b>HELLO WORLD</b>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, maiores! Autem placeat delectus facilis deserunt sequi! Asperiores nostrum aperiam excepturi recusandae molestias quidem aliquid, facilis rem omnis dolorem quod repellendus.</p>
-    </body>
- </html>
-    
-        
- <!-- Grouping selector-->
-  <!--Grouping of some tags-->
-  <html>
-    <head>
-        <title> Grouping Selector</title>
-        <link rel="stylesheet" href="C:\Users\pujiv\Desk<html>
-    <head>
-        <title>
-            Types of selectors
-        </title>
-        <link rel="stylesheet" href="C:\Users\pujiv\Desktop\css\style.css">
-    </head>
-    <body>
-        <h1> HAI WELCOME TO PYTHON</h1>
-        <h2>HIETECH SOLUTIONStop\css\style.css">
-    </head>
-    <body>
-        <h3>GROUPING TAGS</h3>
-        <p>HELLO FRIEND</p>
-        <b>Bold Tag</b>
-    </body>
-  </html>
+<!--There are six types of selectors-->
+<!--Element Selector Individual element-->
+h1
+{
+color:red;
+}
 
-  
-<!--ID SELECTOR is used to give one element one id but in class not like that-->
+<!--Example:-->
+<!--style.css-->
+h2{
+color:red; 
+font-size:40px;
+}
 
+b{
+color:green;
+font-size:50px;
+}
+
+<!--index.html-->
 <html>
-    <head>
-        <title>
-            ID SELECTOR
-        </title>
-        <link rel="stylesheet" href="C:\Users\pujiv\Desktop\css\style.css">
-    </head>
-    <body>
-        <h1 id="id1"> This is Heading1</h1>
-        <h1 id="id2">This is heading2</h1>
-        <p>This is paragraph tag
-        <p > This is second line</p>
-        <b>This is Bold Tag</b>
-    </body>
+<head><link rel="stylesheet" href="./style.css"></head>
+<body>
+<h1>Rama Krishna</h1>
+<h2>Rama Krishna</h2>
+<p>This is Paragraph Tag.</p>
+<b>This is Bold Tag.</b>
+</body>
 </html>
 
-<!-- CLASS SELECTOR-->
+<!--Group Selector-->
+<!--Grouping of some tags-->
+<!--style.css-->
+h2,p{
+color:red; 
+font-size:40px;
+}
+
+b{
+color:green;
+font-size:50px;
+}
+
+<!--index.html-->
+<html>
+<head><link rel="stylesheet" href="./style.css"></head>
+<body>
+<h1>Rama Krishna</h1>
+<h2>Rama Krishna</h2>
+<p>This is Paragraph Tag.</p>
+<b>This is Bold Tag.</b>
+</body>
+</html>
+
+
+<!--ID SELECTOR is used to give one element one id but in class not like that-->
+<!--style.css-->
+#top{
+color:red; 
+font-size:40px;
+}
+
+#pot{
+color:green;
+font-size:50px;
+}
+
+<!-- index.html -->
+<html>
+<head><link rel="stylesheet" href="./style.css"></head>
+<body>
+<h1 id="top">Rama Krishna</h1>
+<h2>Rama Krishna</h2>
+<p id="pot">This is Paragraph Tag.</p>
+<b>This is Bold Tag.</b>
+</body>
+</html>
+
+
+<!-- 4.	Class Selector: -->
  <!-- • A class selector is used to apply styles to specific HTML elements.
 • It helps avoid styling all elements of the same tag.
 • Class selectors allow reuse of the same style in many places.
@@ -68,32 +86,61 @@
 • Classes make styling more flexible and organized.
 • They are commonly used for buttons, headings, paragraphs, and layouts.
 • Use class selectors when you need control and reusability in design. -->
+<!-- style.css -->
+.pot{
+color:green;
+font-size:50px;
+}
+
+.a { color :red }
+.b{ text-transform: uppercase; }
+
+<!-- index.html -->
+<html>
+<head><link rel="stylesheet" href="./style.css"></head>
+<body>
+<h1 class="pot">Rama Krishna</h1>
+<h2>Rama Krishna</h2>
+<p class="a b">This is Paragraph Tag.</p>
+<b>This is Bold Tag.</b>
+</body>
+</html>
+
+<!-- Attribute selector -->
+ <!-- style.css -->
+input[type="text"]{
+color:red;
+}
+    
+<!-- index.html -->
+<html>
+<head><link rel="stylesheet" href="./style.css"></head>
+<body>
+Name: <input type="text">
+</body>
+</html>
+
+
+<!-- Universal selector -->
+  <!-- style.css -->
+div *{
+    color:aqua;
+    font-size:50px;
+}
+
+  <!-- index.html -->
  <html>
     <head>
-        <title>
-            CLASS SELECTOR
-        </title>
-        <link rel="stylesheet" href="C:\Users\pujiv\Desktop\css\style.css">
+        <link rel="stylesheet" href="./style.css">
+        <title>UNIVERSAL</title>
     </head>
     <body>
-        <p class="c1">This is paragraph1</p>
-        <p>This is paragraph2</p>
-        <p class="c1">This is paragraph3</p>
-        <p>This is paragraph4</p>
-        <p class="c1">This is paragraph5</p>
+        <div>
+            <h1>HAI</h1>
+            <h2>HELLO</h2>
+            <h3>WELCOME</h3>
+        </div>
     </body>
- </html>
+</html>
+    
 
- <!-- Attribute selector-->
-  <html>
-    <head>
-        <title>
-            Attribute Selector
-        </title>
-        <link rel="stylesheet" href="C:\Users\pujiv\Desktop\css\style.css">
-    </head>
-    <body>
-        First Name:<input type="text"><br><br>
-        Last Name:<input type="text">
-    </body>
-  </html>
