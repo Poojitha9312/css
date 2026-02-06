@@ -1,0 +1,7 @@
+body{
+background-image: url("./ball.jpg"),url("./butterfly.jpg");
+background-position: left top,right bottom;
+background-repeat:no-repeat;
+background-size: 500px 500px;
+background-blend-mode:multiply;     
+}
